@@ -656,6 +656,10 @@ public abstract class AbstractMain {
 			executeAutoConfigure(ConfigurationProperties.properties.getProperty("location"));
 		}
 
+		if (cmd.hasOption("threads")) {
+			ConfigurationProperties.properties.setProperty("threads", cmd.getOptionValue("threads"));
+		}
+
 		log.info("command line arguments: " + Arrays.toString(args).replace(",", " "));
 
 		// CLG believes, but is not totally confident in her belief, that this
@@ -764,7 +768,7 @@ public abstract class AbstractMain {
 	/**
 	 * Finds an example to test in the command line
 	 * 
-	 * @param cmd
+	 * @param args
 	 * @return
 	 * @throws Exception
 	 */

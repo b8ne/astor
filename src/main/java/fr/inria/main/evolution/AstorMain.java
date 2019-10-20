@@ -67,7 +67,7 @@ public class AstorMain extends AbstractMain {
 	 * It creates a repair engine according to an execution mode.
 	 * 
 	 * 
-	 * @param removeMode
+	 * @param mode
 	 * @return
 	 * @throws Exception
 	 */
@@ -198,6 +198,9 @@ public class AstorMain extends AbstractMain {
 
 		long endT = System.currentTimeMillis();
 		log.info("Time Total(s): " + (endT - startT) / 1000d);
+
+		// Manual exit to prevent ExecutorService hanging
+		System.exit(1);
 	}
 
 	/**
