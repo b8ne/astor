@@ -1,5 +1,6 @@
 package fr.inria.astor.core.solutionsearch;
 
+
 import com.martiansoftware.jsap.JSAPException;
 import fr.inria.astor.core.entities.ModificationPoint;
 import fr.inria.astor.core.entities.OperatorInstance;
@@ -17,21 +18,15 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 import org.apache.commons.collections.map.HashedMap;
 
 /**
  * Evolutionary program transformation Loop
- *
+ * 
  * @author Matias Martinez
  *
  */
 public class EvolutionarySearchEngine extends AstorCoreEngine {
-	ExecutorService SERVICE_POOL = Executors.newFixedThreadPool(ConfigurationProperties.getPropertyInt("threads"));
 
 	public EvolutionarySearchEngine(MutationSupporter mutatorExecutor, ProjectRepairFacade projFacade)
 			throws JSAPException {
@@ -76,7 +71,7 @@ public class EvolutionarySearchEngine extends AstorCoreEngine {
 							(ConfigurationProperties.getPropertyBool("stopfirst")
 									// or nr solutions are greater than max allowed
 									|| (this.solutions.size() >= ConfigurationProperties
-									.getPropertyInt("maxnumbersolutions")));
+											.getPropertyInt("maxnumbersolutions")));
 
 					if (stopSearch) {
 						log.debug("\n Max Solution found " + this.solutions.size());
@@ -98,9 +93,6 @@ public class EvolutionarySearchEngine extends AstorCoreEngine {
 			}
 		}
 
-		if (!SERVICE_POOL.isShutdown()) {
-			SERVICE_POOL.shutdownNow();
-		}
 	}
 
 	public OperatorInstance createOperatorInstanceForPoint(ModificationPoint modificationPoint)
@@ -130,92 +122,66 @@ public class EvolutionarySearchEngine extends AstorCoreEngine {
 
 	/**
 	 * Process a generation i: loops over all instances
-	 *
+	 * 
 	 * @param generation
 	 * @return
 	 * @throws Exception
 	 */
 	private boolean processGenerations(int generation) throws Exception {
+
 		log.debug("\n***** Generation " + generation + " : " + this.nrGenerationWithoutModificatedVariant);
-		final boolean[] foundOneVariant = {false};
-		final boolean[] foundSolution = {false};
+		boolean foundSolution = false, foundOneVariant = false;
 
 		List<ProgramVariant> temporalInstances = new ArrayList<ProgramVariant>();
 
 		currentStat.increment(GeneralStatEnum.NR_GENERATIONS);
 
-		CountDownLatch latch = new CountDownLatch(variants.size());
 		for (ProgramVariant parentVariant : variants) {
-			Runnable runnable = () -> {
-				log.debug("**Parent Variant: " + parentVariant);
 
-				try {
-					saveOriginalVariant(parentVariant);
-					ProgramVariant newVariant = createNewProgramVariant(parentVariant, generation);
-					saveModifVariant(parentVariant);
+			log.debug("**Parent Variant: " + parentVariant);
 
-					if (newVariant == null) {
-						return;
-					}
-					temporalInstances.add(newVariant);
+			this.saveOriginalVariant(parentVariant);
+			ProgramVariant newVariant = createNewProgramVariant(parentVariant, generation);
+			this.saveModifVariant(parentVariant);
 
-					boolean solution = processCreatedVariant(newVariant, generation);
+			if (newVariant == null) {
+				continue;
+			}
+			temporalInstances.add(newVariant);
 
-					if (solution) {
-						foundSolution[0] = true;
-						newVariant.setBornDate(new Date());
-					}
-					foundOneVariant[0] = true;
-					// Finally, reverse the changes done by the child
-					reverseOperationInModel(newVariant, generation);
-					validateReversedOriginalVariant(newVariant);
-					if (foundSolution[0] && ConfigurationProperties.getPropertyBool("stopfirst")) {
-						// @TODO: make this stop the generation
-					}
-				} catch (Exception e) {
-					Thread.currentThread().interrupt();
-				} finally {
-					latch.countDown();
-				}
-			};
+			boolean solution = processCreatedVariant(newVariant, generation);
 
-			SERVICE_POOL.submit(runnable);
+			if (solution) {
+				foundSolution = true;
+				newVariant.setBornDate(new Date());
+			}
+			foundOneVariant = true;
+			// Finally, reverse the changes done by the child
+			reverseOperationInModel(newVariant, generation);
+			boolean validation = this.validateReversedOriginalVariant(newVariant);
+			if (foundSolution && ConfigurationProperties.getPropertyBool("stopfirst")) {
+				break;
+			}
+
 		}
-		latch.await();
-
-		if (ConfigurationProperties.getPropertyInt("maxGeneration") == generation) {
-			SERVICE_POOL.shutdownNow();
-		}
-
 		prepareNextGeneration(temporalInstances, generation);
 
-		if (!foundOneVariant[0])
+		if (!foundOneVariant)
 			this.nrGenerationWithoutModificatedVariant++;
 		else {
 			this.nrGenerationWithoutModificatedVariant = 0;
 		}
 
-		for(boolean found : foundSolution) {
-			if (found){
-				return true;
-			}
-		}
-
-		return false;
-	}
-
-	private static class ThreadVariantExecutor implements Executor {
-		public void execute(Runnable r) {
-			new Thread(r).start();
-		}
+		return foundSolution;
 	}
 
 	/**
 	 * Create a child mutated. Return null if not mutation is produced by the engine
 	 * (i.e. the child is equal to the parent)
-	 *
+	 * 
 	 * @param parentVariant
 	 * @param generation
+	 * @param idsChild
 	 * @return
 	 * @throws Exception
 	 */
@@ -263,7 +229,7 @@ public class EvolutionarySearchEngine extends AstorCoreEngine {
 	/**
 	 * Given a program variant, the method generates operations for modifying that
 	 * variants. Each operation is related to one gen of the program variant.
-	 *
+	 * 
 	 * @param variant
 	 * @param generation
 	 * @return
@@ -337,7 +303,7 @@ public class EvolutionarySearchEngine extends AstorCoreEngine {
 	/**
 	 * Return true if the gen passed as parameter was already affected by a previous
 	 * operator.
-	 *
+	 * 
 	 * @param genProgInstance
 	 * @param map
 	 * @param generation
@@ -381,7 +347,7 @@ public class EvolutionarySearchEngine extends AstorCoreEngine {
 
 	/**
 	 * Apply a mutation generated in previous generation to a model
-	 *
+	 * 
 	 * @param variant
 	 * @param currentGeneration
 	 * @throws IllegalAccessException
@@ -408,7 +374,7 @@ public class EvolutionarySearchEngine extends AstorCoreEngine {
 
 	/**
 	 * Apply the mutation generated in the current Generation
-	 *
+	 * 
 	 * @param variant
 	 * @param currentGeneration
 	 * @throws IllegalAccessException

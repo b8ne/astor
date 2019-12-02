@@ -166,7 +166,7 @@
         <copy file="${basedir}/README.txt" tofile="${basedir}/distribution/README.txt" />
         <copy file="${basedir}/NEWS" tofile="${basedir}/distribution/NEWS" />
         <copy file="${basedir}/ChangeLog" tofile="${basedir}/distribution/ChangeLog" />
-        <copy file="${basedir}/maven-jfreechart-project.xml" tofile="${basedir}/distribution/maven-jfreechart-project.xml" />
+        <copy file="/examples/chart_1/pom.xml" tofile="${basedir}/distribution/maven-jfreechart-project.xml" />
 
         <!-- copy across LICENCE -->
         <copy file="${basedir}/licence-LGPL.txt" tofile="${basedir}/distribution/licence-LGPL.txt" />
@@ -272,7 +272,7 @@
          <token key="VERSION" value="${jfreechart.version}"/>
        </replacetokens>
     </filterchain>
-    <copy file="maven-jfreechart-project.xml" tofile="distribution/project.xml">
+    <copy file="../pom.xml" tofile="distribution/project.xml">
 	<filterchain refid="version.filters"/>
     </copy>
     

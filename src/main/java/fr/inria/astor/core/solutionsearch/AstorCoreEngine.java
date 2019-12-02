@@ -1,9 +1,14 @@
 package fr.inria.astor.core.solutionsearch;
 
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,6 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import java.util.stream.Stream;
 import org.apache.commons.collections.map.HashedMap;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -423,10 +429,17 @@ public abstract class AstorCoreEngine implements AstorExtensionPoint {
 	public boolean processCreatedVariant(ProgramVariant programVariant, int generation) throws Exception {
 
 		URL[] originalURL = projectFacade.getClassPathURLforProgramVariant(ProgramVariant.DEFAULT_ORIGINAL_VARIANT);
+		URL[] threadURL = projectFacade.getClassPathURLforProgramVariant(ProgramVariant.DEFAULT_ORIGINAL_VARIANT + "-" + Thread.currentThread().getId());
 
-		CompilationResult compilation = compiler.compile(programVariant, originalURL);
+		// Copy original for this thread
+		File originalPath = new File(originalURL[0].getPath());
+		File threadPath = new File(threadURL[0].getPath());
+		copyDir(originalPath.toPath(), threadPath.toPath());
+
+		CompilationResult compilation = compiler.compile(programVariant, threadURL);
 
 		boolean childCompiles = compilation.compiles();
+
 		programVariant.setCompilation(compilation);
 
 		storeModifiedModel(programVariant);
@@ -461,8 +474,35 @@ public abstract class AstorCoreEngine implements AstorExtensionPoint {
 		// In case that the variant a) does not compile; b) compiles but it's
 		// not adequate
 		Stats.currentStat.getIngredientsStats().storeIngCounterFromFailingPatch(programVariant.getId());
+
 		return false;
 
+	}
+
+	private static void copyDir(Path src, Path dest) throws IOException {
+		deleteDir(dest.toFile());
+		Files.walk(src)
+				.forEach(source -> {
+					try {
+						Files.copy(source, dest.resolve(src.relativize(source)),
+								StandardCopyOption.REPLACE_EXISTING);
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				});
+	}
+
+	private static boolean deleteDir(File dir) {
+		if (dir.isDirectory()) {
+			String[] children = dir.list();
+			for (int i=0; i<children.length; i++) {
+				boolean success = deleteDir(new File(dir, children[i]));
+				if (!success) {
+					return false;
+				}
+			}
+		}
+		return dir.delete();
 	}
 
 	protected void saveStaticSucessful(int variant_id, int generation) {

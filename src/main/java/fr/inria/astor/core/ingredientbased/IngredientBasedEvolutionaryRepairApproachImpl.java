@@ -44,7 +44,8 @@ import fr.inria.main.evolution.PlugInLoader;
  * @author Matias Martinez, matias.martinez@inria.fr
  * 
  */
-public abstract class IngredientBasedEvolutionaryRepairApproachImpl extends EvolutionarySearchEngine
+public abstract class IngredientBasedEvolutionaryRepairApproachImpl extends
+        EvolutionarySearchEngine
 		implements IngredientBasedApproach {
 
 	protected IngredientSearchStrategy ingredientSearchStrategy;

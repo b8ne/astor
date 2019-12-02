@@ -1,0 +1,807 @@
+[2019-11-02 12:25:20] STARTING NEW BATCH REPAIR
+----------------------------------------------------------------
+[2019-11-02 12:25:20] Running astor for jgenprog
+[2019-11-02 12:25:22] Finished
+[2019-11-02 12:25:22] Population Size: 1,
+[2019-11-02 12:25:22] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/rt-projectlib
+[2019-11-02 12:25:22] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:25:22] Running astor for jgenprog
+[2019-11-02 12:25:25] Finished
+[2019-11-02 12:25:25] Population Size: 10,
+[2019-11-02 12:25:25] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/rt-projectlib
+[2019-11-02 12:25:25] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:25:25] Running astor for jgenprog
+[2019-11-02 12:25:28] Finished
+[2019-11-02 12:25:28] Population Size: 20,
+[2019-11-02 12:25:28] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/rt-projectlib
+[2019-11-02 12:25:28] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:25:28] Running astor for jgenprog
+[2019-11-02 12:25:30] Finished
+[2019-11-02 12:25:30] Population Size: 50
+[2019-11-02 12:25:30] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/rt-projectlib
+[2019-11-02 12:25:30] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:25:30] Running astor for jgenprog
+[2019-11-02 12:25:33] Finished
+[2019-11-02 12:25:33] Population Size: 1,
+[2019-11-02 12:25:33] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM1lib
+[2019-11-02 12:25:33] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:25:33] Running astor for jgenprog
+[2019-11-02 12:25:36] Finished
+[2019-11-02 12:25:36] Population Size: 10,
+[2019-11-02 12:25:36] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM1lib
+[2019-11-02 12:25:36] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:25:36] Running astor for jgenprog
+[2019-11-02 12:25:38] Finished
+[2019-11-02 12:25:39] Population Size: 20,
+[2019-11-02 12:25:39] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM1lib
+[2019-11-02 12:25:39] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:25:39] Running astor for jgenprog
+[2019-11-02 12:25:50] Finished
+[2019-11-02 12:25:50] Population Size: 50
+[2019-11-02 12:25:50] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM1lib
+[2019-11-02 12:25:50] Execution Time: 11
+----------------------------------------------------------------
+[2019-11-02 12:25:50] Running astor for jgenprog
+[2019-11-02 12:25:53] Finished
+[2019-11-02 12:25:53] Population Size: 1,
+[2019-11-02 12:25:53] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2lib
+[2019-11-02 12:25:53] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:25:53] Running astor for jgenprog
+[2019-11-02 12:25:55] Finished
+[2019-11-02 12:25:55] Population Size: 10,
+[2019-11-02 12:25:55] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2lib
+[2019-11-02 12:25:55] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:25:55] Running astor for jgenprog
+[2019-11-02 12:25:58] Finished
+[2019-11-02 12:25:58] Population Size: 20,
+[2019-11-02 12:25:58] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2lib
+[2019-11-02 12:25:58] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:25:58] Running astor for jgenprog
+[2019-11-02 12:26:08] Finished
+[2019-11-02 12:26:08] Population Size: 50
+[2019-11-02 12:26:08] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2lib
+[2019-11-02 12:26:08] Execution Time: 10
+----------------------------------------------------------------
+[2019-11-02 12:26:08] Running astor for jgenprog
+[2019-11-02 12:26:11] Finished
+[2019-11-02 12:26:11] Population Size: 1,
+[2019-11-02 12:26:11] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2blib
+[2019-11-02 12:26:11] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:11] Running astor for jgenprog
+[2019-11-02 12:26:14] Finished
+[2019-11-02 12:26:14] Population Size: 10,
+[2019-11-02 12:26:14] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2blib
+[2019-11-02 12:26:14] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:14] Running astor for jgenprog
+[2019-11-02 12:26:17] Finished
+[2019-11-02 12:26:17] Population Size: 20,
+[2019-11-02 12:26:17] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2blib
+[2019-11-02 12:26:17] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:17] Running astor for jgenprog
+[2019-11-02 12:26:23] Finished
+[2019-11-02 12:26:23] Population Size: 50
+[2019-11-02 12:26:23] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testBinaryExprReduceVM2blib
+[2019-11-02 12:26:23] Execution Time: 6
+----------------------------------------------------------------
+[2019-11-02 12:26:23] Running astor for jgenprog
+[2019-11-02 12:26:26] Finished
+[2019-11-02 12:26:26] Population Size: 1,
+[2019-11-02 12:26:26] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testIfNullCheckVRlib
+[2019-11-02 12:26:26] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:26] Running astor for jgenprog
+[2019-11-02 12:26:29] Finished
+[2019-11-02 12:26:29] Population Size: 10,
+[2019-11-02 12:26:29] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testIfNullCheckVRlib
+[2019-11-02 12:26:29] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:29] Running astor for jgenprog
+[2019-11-02 12:26:32] Finished
+[2019-11-02 12:26:32] Population Size: 20,
+[2019-11-02 12:26:32] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testIfNullCheckVRlib
+[2019-11-02 12:26:32] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:32] Running astor for jgenprog
+[2019-11-02 12:26:48] Finished
+[2019-11-02 12:26:48] Population Size: 50
+[2019-11-02 12:26:48] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testIfNullCheckVRlib
+[2019-11-02 12:26:48] Execution Time: 16
+----------------------------------------------------------------
+[2019-11-02 12:26:48] Running astor for jgenprog
+[2019-11-02 12:26:50] Finished
+[2019-11-02 12:26:50] Population Size: 1,
+[2019-11-02 12:26:50] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti1lib
+[2019-11-02 12:26:50] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:26:50] Running astor for jgenprog
+[2019-11-02 12:26:53] Finished
+[2019-11-02 12:26:53] Population Size: 10,
+[2019-11-02 12:26:53] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti1lib
+[2019-11-02 12:26:53] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:53] Running astor for jgenprog
+[2019-11-02 12:26:56] Finished
+[2019-11-02 12:26:56] Population Size: 20,
+[2019-11-02 12:26:56] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti1lib
+[2019-11-02 12:26:56] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:26:56] Running astor for jgenprog
+[2019-11-02 12:27:06] Finished
+[2019-11-02 12:27:06] Population Size: 50
+[2019-11-02 12:27:06] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti1lib
+[2019-11-02 12:27:06] Execution Time: 10
+----------------------------------------------------------------
+[2019-11-02 12:27:06] Running astor for jgenprog
+[2019-11-02 12:27:09] Finished
+[2019-11-02 12:27:09] Population Size: 1,
+[2019-11-02 12:27:09] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti2lib
+[2019-11-02 12:27:09] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:27:09] Running astor for jgenprog
+[2019-11-02 12:27:12] Finished
+[2019-11-02 12:27:12] Population Size: 10,
+[2019-11-02 12:27:12] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti2lib
+[2019-11-02 12:27:12] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:27:12] Running astor for jgenprog
+[2019-11-02 12:27:14] Finished
+[2019-11-02 12:27:15] Population Size: 20,
+[2019-11-02 12:27:15] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti2lib
+[2019-11-02 12:27:15] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:27:15] Running astor for jgenprog
+[2019-11-02 12:27:21] Finished
+[2019-11-02 12:27:21] Population Size: 50
+[2019-11-02 12:27:21] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti2lib
+[2019-11-02 12:27:21] Execution Time: 6
+----------------------------------------------------------------
+[2019-11-02 12:27:21] Running astor for jgenprog
+[2019-11-02 12:27:24] Finished
+[2019-11-02 12:27:24] Population Size: 1,
+[2019-11-02 12:27:24] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti3lib
+[2019-11-02 12:27:24] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:27:24] Running astor for jgenprog
+[2019-11-02 12:27:27] Finished
+[2019-11-02 12:27:27] Population Size: 10,
+[2019-11-02 12:27:27] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti3lib
+[2019-11-02 12:27:27] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:27:27] Running astor for jgenprog
+[2019-11-02 12:27:29] Finished
+[2019-11-02 12:27:29] Population Size: 20,
+[2019-11-02 12:27:29] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti3lib
+[2019-11-02 12:27:29] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:27:29] Running astor for jgenprog
+[2019-11-02 12:27:55] Finished
+[2019-11-02 12:27:55] Population Size: 50
+[2019-11-02 12:27:55] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testMulti3lib
+[2019-11-02 12:27:55] Execution Time: 26
+----------------------------------------------------------------
+[2019-11-02 12:27:55] Running astor for jgenprog
+[2019-11-02 12:27:57] Finished
+[2019-11-02 12:27:57] Population Size: 1,
+[2019-11-02 12:27:57] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testOperatorBinary1WrongVarlib
+[2019-11-02 12:27:57] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:27:58] Running astor for jgenprog
+[2019-11-02 12:28:00] Finished
+[2019-11-02 12:28:00] Population Size: 10,
+[2019-11-02 12:28:00] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testOperatorBinary1WrongVarlib
+[2019-11-02 12:28:00] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:28:00] Running astor for jgenprog
+[2019-11-02 12:28:03] Finished
+[2019-11-02 12:28:03] Population Size: 20,
+[2019-11-02 12:28:03] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testOperatorBinary1WrongVarlib
+[2019-11-02 12:28:03] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:28:03] Running astor for jgenprog
+[2019-11-02 12:28:26] Finished
+[2019-11-02 12:28:26] Population Size: 50
+[2019-11-02 12:28:26] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testOperatorBinary1WrongVarlib
+[2019-11-02 12:28:26] Execution Time: 23
+----------------------------------------------------------------
+[2019-11-02 12:28:26] Running astor for jgenprog
+[2019-11-02 12:28:29] Finished
+[2019-11-02 12:28:29] Population Size: 1,
+[2019-11-02 12:28:29] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testTryVRlib
+[2019-11-02 12:28:29] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:28:29] Running astor for jgenprog
+[2019-11-02 12:28:31] Finished
+[2019-11-02 12:28:32] Population Size: 10,
+[2019-11-02 12:28:32] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testTryVRlib
+[2019-11-02 12:28:32] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:28:32] Running astor for jgenprog
+[2019-11-02 12:28:34] Finished
+[2019-11-02 12:28:34] Population Size: 20,
+[2019-11-02 12:28:34] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testTryVRlib
+[2019-11-02 12:28:34] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:28:34] Running astor for jgenprog
+[2019-11-02 12:28:40] Finished
+[2019-11-02 12:28:40] Population Size: 50
+[2019-11-02 12:28:40] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testTryVRlib
+[2019-11-02 12:28:40] Execution Time: 6
+----------------------------------------------------------------
+[2019-11-02 12:28:40] Running astor for jgenprog
+[2019-11-02 12:28:43] Finished
+[2019-11-02 12:28:43] Population Size: 1,
+[2019-11-02 12:28:43] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testUnwrapIfVR1lib
+[2019-11-02 12:28:43] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:28:43] Running astor for jgenprog
+[2019-11-02 12:28:46] Finished
+[2019-11-02 12:28:46] Population Size: 10,
+[2019-11-02 12:28:46] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testUnwrapIfVR1lib
+[2019-11-02 12:28:46] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:28:46] Running astor for jgenprog
+[2019-11-02 12:28:48] Finished
+[2019-11-02 12:28:48] Population Size: 20,
+[2019-11-02 12:28:49] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testUnwrapIfVR1lib
+[2019-11-02 12:28:49] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:28:49] Running astor for jgenprog
+[2019-11-02 12:29:15] Finished
+[2019-11-02 12:29:15] Population Size: 50
+[2019-11-02 12:29:15] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testUnwrapIfVR1lib
+[2019-11-02 12:29:15] Execution Time: 26
+----------------------------------------------------------------
+[2019-11-02 12:29:15] Running astor for jgenprog
+[2019-11-02 12:29:18] Finished
+[2019-11-02 12:29:18] Population Size: 1,
+[2019-11-02 12:29:18] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testWMVMRcase3lib
+[2019-11-02 12:29:18] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:29:18] Running astor for jgenprog
+[2019-11-02 12:29:21] Finished
+[2019-11-02 12:29:21] Population Size: 10,
+[2019-11-02 12:29:21] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testWMVMRcase3lib
+[2019-11-02 12:29:21] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:29:21] Running astor for jgenprog
+[2019-11-02 12:29:23] Finished
+[2019-11-02 12:29:23] Population Size: 20,
+[2019-11-02 12:29:24] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testWMVMRcase3lib
+[2019-11-02 12:29:24] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:29:24] Running astor for jgenprog
+[2019-11-02 12:29:50] Finished
+[2019-11-02 12:29:50] Population Size: 50
+[2019-11-02 12:29:50] Project: /Users/ben/Documents/Uni/astor/examples/testMultiMet/testWMVMRcase3lib
+[2019-11-02 12:29:50] Execution Time: 26
+----------------------------------------------------------------
+[2019-11-02 12:29:50] Running astor for jgenprog
+[2019-11-02 12:29:52] Finished
+[2019-11-02 12:29:52] Population Size: 1,
+[2019-11-02 12:29:52] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce1lib
+[2019-11-02 12:29:52] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:29:52] Running astor for jgenprog
+[2019-11-02 12:29:55] Finished
+[2019-11-02 12:29:55] Population Size: 10,
+[2019-11-02 12:29:55] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce1lib
+[2019-11-02 12:29:55] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:29:55] Running astor for jgenprog
+[2019-11-02 12:29:58] Finished
+[2019-11-02 12:29:58] Population Size: 20,
+[2019-11-02 12:29:58] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce1lib
+[2019-11-02 12:29:58] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:29:58] Running astor for jgenprog
+[2019-11-02 12:30:21] Finished
+[2019-11-02 12:30:21] Population Size: 50
+[2019-11-02 12:30:21] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce1lib
+[2019-11-02 12:30:21] Execution Time: 23
+----------------------------------------------------------------
+[2019-11-02 12:30:21] Running astor for jgenprog
+[2019-11-02 12:30:24] Finished
+[2019-11-02 12:30:24] Population Size: 1,
+[2019-11-02 12:30:24] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce2lib
+[2019-11-02 12:30:24] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:30:24] Running astor for jgenprog
+[2019-11-02 12:30:27] Finished
+[2019-11-02 12:30:27] Population Size: 10,
+[2019-11-02 12:30:27] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce2lib
+[2019-11-02 12:30:27] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:30:27] Running astor for jgenprog
+[2019-11-02 12:30:29] Finished
+[2019-11-02 12:30:29] Population Size: 20,
+[2019-11-02 12:30:29] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce2lib
+[2019-11-02 12:30:29] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:30:29] Running astor for jgenprog
+[2019-11-02 12:30:43] Finished
+[2019-11-02 12:30:43] Population Size: 50
+[2019-11-02 12:30:43] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testBinaryExprReduce2lib
+[2019-11-02 12:30:43] Execution Time: 14
+----------------------------------------------------------------
+[2019-11-02 12:30:43] Running astor for jgenprog
+[2019-11-02 12:30:46] Finished
+[2019-11-02 12:30:46] Population Size: 1,
+[2019-11-02 12:30:46] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testConstantPerVar1lib
+[2019-11-02 12:30:46] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:30:46] Running astor for jgenprog
+[2019-11-02 12:30:48] Finished
+[2019-11-02 12:30:48] Population Size: 10,
+[2019-11-02 12:30:48] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testConstantPerVar1lib
+[2019-11-02 12:30:48] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:30:48] Running astor for jgenprog
+[2019-11-02 12:30:51] Finished
+[2019-11-02 12:30:51] Population Size: 20,
+[2019-11-02 12:30:51] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testConstantPerVar1lib
+[2019-11-02 12:30:51] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:30:51] Running astor for jgenprog
+[2019-11-02 12:31:04] Finished
+[2019-11-02 12:31:04] Population Size: 50
+[2019-11-02 12:31:04] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testConstantPerVar1lib
+[2019-11-02 12:31:04] Execution Time: 13
+----------------------------------------------------------------
+[2019-11-02 12:31:04] Running astor for jgenprog
+[2019-11-02 12:31:07] Finished
+[2019-11-02 12:31:07] Population Size: 1,
+[2019-11-02 12:31:07] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testExprExp1lib
+[2019-11-02 12:31:07] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:31:07] Running astor for jgenprog
+[2019-11-02 12:31:09] Finished
+[2019-11-02 12:31:09] Population Size: 10,
+[2019-11-02 12:31:09] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testExprExp1lib
+[2019-11-02 12:31:09] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:31:09] Running astor for jgenprog
+[2019-11-02 12:31:12] Finished
+[2019-11-02 12:31:12] Population Size: 20,
+[2019-11-02 12:31:12] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testExprExp1lib
+[2019-11-02 12:31:12] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:31:12] Running astor for jgenprog
+[2019-11-02 12:37:49] Finished
+[2019-11-02 12:37:49] Population Size: 50
+[2019-11-02 12:37:49] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testExprExp1lib
+[2019-11-02 12:37:49] Execution Time: 397
+----------------------------------------------------------------
+[2019-11-02 12:37:49] Running astor for jgenprog
+[2019-11-02 12:37:52] Finished
+[2019-11-02 12:37:52] Population Size: 1,
+[2019-11-02 12:37:52] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck1lib
+[2019-11-02 12:37:52] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:37:52] Running astor for jgenprog
+[2019-11-02 12:37:55] Finished
+[2019-11-02 12:37:55] Population Size: 10,
+[2019-11-02 12:37:55] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck1lib
+[2019-11-02 12:37:55] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:37:55] Running astor for jgenprog
+[2019-11-02 12:37:58] Finished
+[2019-11-02 12:37:58] Population Size: 20,
+[2019-11-02 12:37:58] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck1lib
+[2019-11-02 12:37:58] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:37:58] Running astor for jgenprog
+[2019-11-02 12:38:02] Finished
+[2019-11-02 12:38:02] Population Size: 50
+[2019-11-02 12:38:02] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck1lib
+[2019-11-02 12:38:02] Execution Time: 4
+----------------------------------------------------------------
+[2019-11-02 12:38:02] Running astor for jgenprog
+[2019-11-02 12:38:05] Finished
+[2019-11-02 12:38:05] Population Size: 1,
+[2019-11-02 12:38:05] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck2lib
+[2019-11-02 12:38:05] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:38:05] Running astor for jgenprog
+[2019-11-02 12:38:08] Finished
+[2019-11-02 12:38:08] Population Size: 10,
+[2019-11-02 12:38:08] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck2lib
+[2019-11-02 12:38:08] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:38:08] Running astor for jgenprog
+[2019-11-02 12:38:11] Finished
+[2019-11-02 12:38:11] Population Size: 20,
+[2019-11-02 12:38:11] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck2lib
+[2019-11-02 12:38:11] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:38:11] Running astor for jgenprog
+[2019-11-02 12:38:25] Finished
+[2019-11-02 12:38:25] Population Size: 50
+[2019-11-02 12:38:25] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfNullCheck2lib
+[2019-11-02 12:38:25] Execution Time: 13
+----------------------------------------------------------------
+[2019-11-02 12:38:25] Running astor for jgenprog
+[2019-11-02 12:38:27] Finished
+[2019-11-02 12:38:27] Population Size: 1,
+[2019-11-02 12:38:27] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfSimple1lib
+[2019-11-02 12:38:28] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:38:28] Running astor for jgenprog
+[2019-11-02 12:38:30] Finished
+[2019-11-02 12:38:30] Population Size: 10,
+[2019-11-02 12:38:30] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfSimple1lib
+[2019-11-02 12:38:30] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:38:30] Running astor for jgenprog
+[2019-11-02 12:38:33] Finished
+[2019-11-02 12:38:34] Population Size: 20,
+[2019-11-02 12:38:34] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfSimple1lib
+[2019-11-02 12:38:34] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:38:34] Running astor for jgenprog
+[2019-11-02 12:38:45] Finished
+[2019-11-02 12:38:45] Population Size: 50
+[2019-11-02 12:38:45] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testIfSimple1lib
+[2019-11-02 12:38:45] Execution Time: 11
+----------------------------------------------------------------
+[2019-11-02 12:38:45] Running astor for jgenprog
+[2019-11-02 12:38:48] Finished
+[2019-11-02 12:38:48] Population Size: 1,
+[2019-11-02 12:38:48] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testMethodReplaceByVar1lib
+[2019-11-02 12:38:48] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:38:48] Running astor for jgenprog
+[2019-11-02 12:38:51] Finished
+[2019-11-02 12:38:51] Population Size: 10,
+[2019-11-02 12:38:51] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testMethodReplaceByVar1lib
+[2019-11-02 12:38:51] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:38:51] Running astor for jgenprog
+[2019-11-02 12:38:54] Finished
+[2019-11-02 12:38:54] Population Size: 20,
+[2019-11-02 12:38:54] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testMethodReplaceByVar1lib
+[2019-11-02 12:38:54] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:38:54] Running astor for jgenprog
+[2019-11-02 12:38:59] Finished
+[2019-11-02 12:38:59] Population Size: 50
+[2019-11-02 12:38:59] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testMethodReplaceByVar1lib
+[2019-11-02 12:38:59] Execution Time: 5
+----------------------------------------------------------------
+[2019-11-02 12:38:59] Running astor for jgenprog
+[2019-11-02 12:39:02] Finished
+[2019-11-02 12:39:02] Population Size: 1,
+[2019-11-02 12:39:02] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary1lib
+[2019-11-02 12:39:02] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:02] Running astor for jgenprog
+[2019-11-02 12:39:05] Finished
+[2019-11-02 12:39:05] Population Size: 10,
+[2019-11-02 12:39:05] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary1lib
+[2019-11-02 12:39:05] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:05] Running astor for jgenprog
+[2019-11-02 12:39:08] Finished
+[2019-11-02 12:39:08] Population Size: 20,
+[2019-11-02 12:39:08] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary1lib
+[2019-11-02 12:39:08] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:08] Running astor for jgenprog
+[2019-11-02 12:39:35] Finished
+[2019-11-02 12:39:35] Population Size: 50
+[2019-11-02 12:39:35] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary1lib
+[2019-11-02 12:39:35] Execution Time: 27
+----------------------------------------------------------------
+[2019-11-02 12:39:35] Running astor for jgenprog
+[2019-11-02 12:39:38] Finished
+[2019-11-02 12:39:38] Population Size: 1,
+[2019-11-02 12:39:38] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary2lib
+[2019-11-02 12:39:38] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:38] Running astor for jgenprog
+[2019-11-02 12:39:41] Finished
+[2019-11-02 12:39:41] Population Size: 10,
+[2019-11-02 12:39:41] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary2lib
+[2019-11-02 12:39:41] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:41] Running astor for jgenprog
+[2019-11-02 12:39:44] Finished
+[2019-11-02 12:39:44] Population Size: 20,
+[2019-11-02 12:39:44] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary2lib
+[2019-11-02 12:39:44] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:44] Running astor for jgenprog
+[2019-11-02 12:39:48] Finished
+[2019-11-02 12:39:48] Population Size: 50
+[2019-11-02 12:39:48] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testOperatorBinary2lib
+[2019-11-02 12:39:48] Execution Time: 4
+----------------------------------------------------------------
+[2019-11-02 12:39:48] Running astor for jgenprog
+[2019-11-02 12:39:51] Finished
+[2019-11-02 12:39:51] Population Size: 1,
+[2019-11-02 12:39:51] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testTrySimple1lib
+[2019-11-02 12:39:51] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:51] Running astor for jgenprog
+[2019-11-02 12:39:54] Finished
+[2019-11-02 12:39:54] Population Size: 10,
+[2019-11-02 12:39:54] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testTrySimple1lib
+[2019-11-02 12:39:54] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:54] Running astor for jgenprog
+[2019-11-02 12:39:57] Finished
+[2019-11-02 12:39:57] Population Size: 20,
+[2019-11-02 12:39:57] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testTrySimple1lib
+[2019-11-02 12:39:57] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:39:57] Running astor for jgenprog
+[2019-11-02 12:40:08] Finished
+[2019-11-02 12:40:08] Population Size: 50
+[2019-11-02 12:40:08] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testTrySimple1lib
+[2019-11-02 12:40:08] Execution Time: 11
+----------------------------------------------------------------
+[2019-11-02 12:40:08] Running astor for jgenprog
+[2019-11-02 12:40:10] Finished
+[2019-11-02 12:40:10] Population Size: 1,
+[2019-11-02 12:40:11] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapIf1lib
+[2019-11-02 12:40:11] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:40:11] Running astor for jgenprog
+[2019-11-02 12:40:13] Finished
+[2019-11-02 12:40:13] Population Size: 10,
+[2019-11-02 12:40:13] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapIf1lib
+[2019-11-02 12:40:13] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 12:40:13] Running astor for jgenprog
+[2019-11-02 12:40:16] Finished
+[2019-11-02 12:40:16] Population Size: 20,
+[2019-11-02 12:40:16] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapIf1lib
+[2019-11-02 12:40:16] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 12:40:16] Running astor for jgenprog
+[2019-11-02 13:18:35] Finished
+[2019-11-02 13:18:35] Population Size: 50
+[2019-11-02 13:18:35] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapIf1lib
+[2019-11-02 13:18:35] Execution Time: 2299
+----------------------------------------------------------------
+[2019-11-02 13:18:35] Running astor for jgenprog
+[2019-11-02 13:18:38] Finished
+[2019-11-02 13:18:38] Population Size: 1,
+[2019-11-02 13:18:38] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapInvocation1lib
+[2019-11-02 13:18:38] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:18:38] Running astor for jgenprog
+[2019-11-02 13:18:41] Finished
+[2019-11-02 13:18:41] Population Size: 10,
+[2019-11-02 13:18:41] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapInvocation1lib
+[2019-11-02 13:18:41] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:18:41] Running astor for jgenprog
+[2019-11-02 13:18:44] Finished
+[2019-11-02 13:18:44] Population Size: 20,
+[2019-11-02 13:18:44] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapInvocation1lib
+[2019-11-02 13:18:44] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:18:44] Running astor for jgenprog
+[2019-11-02 13:19:09] Finished
+[2019-11-02 13:19:09] Population Size: 50
+[2019-11-02 13:19:09] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapInvocation1lib
+[2019-11-02 13:19:09] Execution Time: 25
+----------------------------------------------------------------
+[2019-11-02 13:19:09] Running astor for jgenprog
+[2019-11-02 13:19:12] Finished
+[2019-11-02 13:19:12] Population Size: 1,
+[2019-11-02 13:19:12] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapTry1lib
+[2019-11-02 13:19:12] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:12] Running astor for jgenprog
+[2019-11-02 13:19:15] Finished
+[2019-11-02 13:19:15] Population Size: 10,
+[2019-11-02 13:19:15] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapTry1lib
+[2019-11-02 13:19:15] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:15] Running astor for jgenprog
+[2019-11-02 13:19:18] Finished
+[2019-11-02 13:19:18] Population Size: 20,
+[2019-11-02 13:19:18] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapTry1lib
+[2019-11-02 13:19:18] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:18] Running astor for jgenprog
+[2019-11-02 13:19:22] Finished
+[2019-11-02 13:19:22] Population Size: 50
+[2019-11-02 13:19:22] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testUnwrapTry1lib
+[2019-11-02 13:19:22] Execution Time: 4
+----------------------------------------------------------------
+[2019-11-02 13:19:22] Running astor for jgenprog
+[2019-11-02 13:19:25] Finished
+[2019-11-02 13:19:25] Population Size: 1,
+[2019-11-02 13:19:25] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplace1lib
+[2019-11-02 13:19:25] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:25] Running astor for jgenprog
+[2019-11-02 13:19:28] Finished
+[2019-11-02 13:19:28] Population Size: 10,
+[2019-11-02 13:19:28] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplace1lib
+[2019-11-02 13:19:28] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:28] Running astor for jgenprog
+[2019-11-02 13:19:31] Finished
+[2019-11-02 13:19:31] Population Size: 20,
+[2019-11-02 13:19:31] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplace1lib
+[2019-11-02 13:19:31] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:31] Running astor for jgenprog
+[2019-11-02 13:19:41] Finished
+[2019-11-02 13:19:41] Population Size: 50
+[2019-11-02 13:19:41] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplace1lib
+[2019-11-02 13:19:41] Execution Time: 10
+----------------------------------------------------------------
+[2019-11-02 13:19:41] Running astor for jgenprog
+[2019-11-02 13:19:44] Finished
+[2019-11-02 13:19:44] Population Size: 1,
+[2019-11-02 13:19:44] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplaceByMethod1lib
+[2019-11-02 13:19:44] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:44] Running astor for jgenprog
+[2019-11-02 13:19:47] Finished
+[2019-11-02 13:19:47] Population Size: 10,
+[2019-11-02 13:19:47] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplaceByMethod1lib
+[2019-11-02 13:19:47] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:19:47] Running astor for jgenprog
+[2019-11-02 13:19:49] Finished
+[2019-11-02 13:19:49] Population Size: 20,
+[2019-11-02 13:19:49] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplaceByMethod1lib
+[2019-11-02 13:19:49] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 13:19:49] Running astor for jgenprog
+[2019-11-02 13:20:30] Finished
+[2019-11-02 13:20:30] Population Size: 50
+[2019-11-02 13:20:30] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testVarReplaceByMethod1lib
+[2019-11-02 13:20:30] Execution Time: 41
+----------------------------------------------------------------
+[2019-11-02 13:20:30] Running astor for jgenprog
+[2019-11-02 13:20:33] Finished
+[2019-11-02 13:20:33] Population Size: 1,
+[2019-11-02 13:20:33] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase1lib
+[2019-11-02 13:20:33] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:20:33] Running astor for jgenprog
+[2019-11-02 13:20:35] Finished
+[2019-11-02 13:20:36] Population Size: 10,
+[2019-11-02 13:20:36] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase1lib
+[2019-11-02 13:20:36] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 13:20:36] Running astor for jgenprog
+[2019-11-02 13:20:38] Finished
+[2019-11-02 13:20:38] Population Size: 20,
+[2019-11-02 13:20:38] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase1lib
+[2019-11-02 13:20:38] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 13:20:38] Running astor for jgenprog
+[2019-11-02 13:20:43] Finished
+[2019-11-02 13:20:43] Population Size: 50
+[2019-11-02 13:20:43] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase1lib
+[2019-11-02 13:20:43] Execution Time: 5
+----------------------------------------------------------------
+[2019-11-02 13:20:43] Running astor for jgenprog
+[2019-11-02 13:20:46] Finished
+[2019-11-02 13:20:46] Population Size: 1,
+[2019-11-02 13:20:46] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2alib
+[2019-11-02 13:20:46] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:20:46] Running astor for jgenprog
+[2019-11-02 13:20:49] Finished
+[2019-11-02 13:20:49] Population Size: 10,
+[2019-11-02 13:20:49] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2alib
+[2019-11-02 13:20:49] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:20:49] Running astor for jgenprog
+[2019-11-02 13:20:52] Finished
+[2019-11-02 13:20:52] Population Size: 20,
+[2019-11-02 13:20:52] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2alib
+[2019-11-02 13:20:52] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:20:52] Running astor for jgenprog
+[2019-11-02 13:21:11] Finished
+[2019-11-02 13:21:11] Population Size: 50
+[2019-11-02 13:21:11] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2alib
+[2019-11-02 13:21:11] Execution Time: 19
+----------------------------------------------------------------
+[2019-11-02 13:21:11] Running astor for jgenprog
+[2019-11-02 13:21:14] Finished
+[2019-11-02 13:21:14] Population Size: 1,
+[2019-11-02 13:21:14] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2blib
+[2019-11-02 13:21:14] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:21:14] Running astor for jgenprog
+[2019-11-02 13:21:17] Finished
+[2019-11-02 13:21:17] Population Size: 10,
+[2019-11-02 13:21:17] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2blib
+[2019-11-02 13:21:17] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:21:17] Running astor for jgenprog
+[2019-11-02 13:21:20] Finished
+[2019-11-02 13:21:20] Population Size: 20,
+[2019-11-02 13:21:20] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2blib
+[2019-11-02 13:21:20] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:21:20] Running astor for jgenprog
+[2019-11-02 13:21:28] Finished
+[2019-11-02 13:21:28] Population Size: 50
+[2019-11-02 13:21:28] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2blib
+[2019-11-02 13:21:28] Execution Time: 8
+----------------------------------------------------------------
+[2019-11-02 13:21:28] Running astor for jgenprog
+[2019-11-02 13:21:30] Finished
+[2019-11-02 13:21:30] Population Size: 1,
+[2019-11-02 13:21:30] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2clib
+[2019-11-02 13:21:31] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 13:21:31] Running astor for jgenprog
+[2019-11-02 13:21:33] Finished
+[2019-11-02 13:21:33] Population Size: 10,
+[2019-11-02 13:21:33] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2clib
+[2019-11-02 13:21:33] Execution Time: 2
+----------------------------------------------------------------
+[2019-11-02 13:21:33] Running astor for jgenprog
+[2019-11-02 13:21:36] Finished
+[2019-11-02 13:21:36] Population Size: 20,
+[2019-11-02 13:21:36] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2clib
+[2019-11-02 13:21:36] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:21:36] Running astor for jgenprog
+[2019-11-02 13:22:02] Finished
+[2019-11-02 13:22:02] Population Size: 50
+[2019-11-02 13:22:02] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase2clib
+[2019-11-02 13:22:02] Execution Time: 26
+----------------------------------------------------------------
+[2019-11-02 13:22:02] Running astor for jgenprog
+[2019-11-02 13:22:05] Finished
+[2019-11-02 13:22:05] Population Size: 1,
+[2019-11-02 13:22:05] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase3lib
+[2019-11-02 13:22:05] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:22:05] Running astor for jgenprog
+[2019-11-02 13:22:09] Finished
+[2019-11-02 13:22:09] Population Size: 10,
+[2019-11-02 13:22:09] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase3lib
+[2019-11-02 13:22:09] Execution Time: 4
+----------------------------------------------------------------
+[2019-11-02 13:22:09] Running astor for jgenprog
+[2019-11-02 13:22:12] Finished
+[2019-11-02 13:22:12] Population Size: 20,
+[2019-11-02 13:22:12] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase3lib
+[2019-11-02 13:22:12] Execution Time: 3
+----------------------------------------------------------------
+[2019-11-02 13:22:12] Running astor for jgenprog
+[2019-11-02 13:22:20] Finished
+[2019-11-02 13:22:20] Population Size: 50
+[2019-11-02 13:22:20] Project: /Users/ben/Documents/Uni/astor/examples/testMet/testWMRcase3lib
+[2019-11-02 13:22:20] Execution Time: 8
+----------------------------------------------------------------
+[2019-11-02 13:22:20] Running astor for jgenprog
+[2019-11-02 13:22:40] Finished
+[2019-11-02 13:22:40] Population Size: 1,
+[2019-11-02 13:22:40] Project: /Users/ben/Documents/Uni/astor/examples/Math-0c1ef/lib
+[2019-11-02 13:22:40] Execution Time: 20
+----------------------------------------------------------------
+[2019-11-02 13:22:40] Running astor for jgenprog
+[2019-11-02 13:25:05] Finished
+[2019-11-02 13:25:05] Population Size: 10,
+[2019-11-02 13:25:05] Project: /Users/ben/Documents/Uni/astor/examples/Math-0c1ef/lib
+[2019-11-02 13:25:05] Execution Time: 145
+----------------------------------------------------------------
+[2019-11-02 13:25:05] Running astor for jgenprog

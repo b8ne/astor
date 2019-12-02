@@ -54,7 +54,7 @@ import org.mockito.asm.signature.SignatureReader;
  * // access flags 33
  * public class Hello {
  *
- *  // compiled from: Hello.java
+ *  // compiled from: Calculator.java
  *
  *   // access flags 1
  *   public &lt;init&gt; ()V

@@ -42,6 +42,7 @@ function compilemaven {
 
 
 echo calling compile maven
+
 compilemaven "examples/testMultiMet/"
 compilemaven "examples/testMet/"
 

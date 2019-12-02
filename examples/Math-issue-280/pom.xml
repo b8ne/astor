@@ -244,13 +244,9 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
-              <includes>
-                <include>**/*Test.java</include>
-              </includes>
-              <excludes>
-                <exclude>**/*AbstractTest.java</exclude>
-              </excludes>
+          <version>2.19.1</version>
+          <configuration>
+            <testFailureIgnore>true</testFailureIgnore>
           </configuration>
         </plugin>
         <plugin>

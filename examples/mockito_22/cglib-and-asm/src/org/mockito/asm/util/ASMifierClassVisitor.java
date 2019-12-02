@@ -68,7 +68,7 @@ import org.mockito.asm.Opcodes;
  *                 &quot;java/lang/Object&quot;,
  *                 null);
  *
- *         cw.visitSource(&quot;Hello.java&quot;, null);
+ *         cw.visitSource(&quot;Calculator.java&quot;, null);
  *
  *         {
  *             mv = cw.visitMethod(ACC_PUBLIC, &quot;&lt;init&gt;&quot;, &quot;()V&quot;, null, null);

@@ -49,6 +49,7 @@ We present a command line with the required arguments for executing jGenProg.  O
 Then the main execution command is as follows (note that the "location" argument is mandatory, and must be an absolute path):
 
      java -cp $(cat /tmp/astor-classpath.txt):target/classes fr.inria.main.evolution.AstorMain -mode jgenprog -srcjavafolder /src/java/ -srctestfolder /src/test/  -binjavafolder /target/classes/ -bintestfolder  /target/test-classes/ -location /home/user/astor/examples/Math-issue-280/ -dependencies examples/Math-issue-280/lib
+     java -cp $(cat /tmp/astor-classpath.txt):target/classes fr.inria.main.evolution.AstorMain -mode jgenprog -srcjavafolder /src/java/ -srctestfolder /src/test/  -binjavafolder /target/classes/ -bintestfolder  /target/test-classes/ -location /Users/ben/Documents/Uni/astor/examples/hello-world/ -dependencies /Users/ben/Documents/Uni/astor/exampleshello-world/lib
 
 The only part of the above command that you should need to alter is the absolute path that follows the -location argument.
 
